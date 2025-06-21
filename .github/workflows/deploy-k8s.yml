@@ -18,7 +18,7 @@ jobs:
           version: latest
           hostname: kreat8s-deploy
       - name: Install kubectl
-        uses: Azure/setup-kubectl@v4.0.0
+        uses: Azure/setup-kubectl@v4.0.1
       - name: Install Helm
         uses: Azure/setup-helm@v4.3.0
       - name: Add kubeconfig

@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v4.0.0
+        uses: azure/setup-kubectl@v4.0.1
       - name: Install Helm
         uses: azure/setup-helm@v4.3.0
       - name: Install kubeconform
